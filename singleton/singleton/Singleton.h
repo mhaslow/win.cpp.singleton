@@ -18,3 +18,16 @@ private:
 
 	static Singleton *m_instanceSingleton;
 };
+
+
+class SingletonRef {
+	public:
+		static SingletonRef& getInstance();
+
+	private:
+		SingletonRef();
+		~SingletonRef();
+
+		SingletonRef(const SingletonRef&);
+		SingletonRef& operator=(const SingletonRef&);
+};
