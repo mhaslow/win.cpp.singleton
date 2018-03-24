@@ -1,4 +1,5 @@
 *.opendb
+*.filters
 
 Debug
 Release
